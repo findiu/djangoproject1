@@ -14,3 +14,4 @@ def grades(request):
 def students(request):
     studentsList=Students.objects.all()
     return render(request,'myApp/students.html',{"students":studentsList})
+

@@ -12,4 +12,5 @@ urlpatterns=[
     url(r'-?[1-9]\d*',views.sz),
     url(r'^grades/$',views.grades),
     url(r'^students/$', views.students),
+
 ]
